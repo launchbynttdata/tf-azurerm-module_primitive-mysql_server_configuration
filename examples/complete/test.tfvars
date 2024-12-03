@@ -1,7 +1,8 @@
 # https://learn.microsoft.com/en-us/azure/mysql/flexible-server/concepts-server-parameters
 server_configuration = {
-  "backslash_quote" = "on"
-  "log_connections" = "on"
+  "audit_log_enabled" = "ON"
+  "connect_timeout"   = "15"
 }
 
-zone = "1"
+zone                = "1"
+administrator_login = "sqladmin"
