@@ -19,7 +19,7 @@ variable "resource_names_map" {
 
   default = {
     mysql_server = {
-      name       = "psql"
+      name       = "mysql"
       max_length = 60
     }
     resource_group = {
