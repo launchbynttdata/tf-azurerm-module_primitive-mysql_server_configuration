@@ -33,5 +33,5 @@ func TestMysqlConfigurationModule(t *testing.T) {
 		SetTestConfigFileName(infraTFVarFileNameDefault).
 		Build()
 
-	lib.RunSetupTestTeardown(t, *ctx, testimpl.TestMysqlServer)
+	lib.RunNonDestructiveTest(t, *ctx, testimpl.TestComposableMysqlServer)
 }
