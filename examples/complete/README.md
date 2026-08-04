@@ -4,7 +4,7 @@
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 3.113 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | ~> 3.5 |
@@ -12,7 +12,7 @@
 ## Modules
 
 | Name | Source | Version |
-|------|--------|---------|
+| ---- | ------ | ------- |
 | <a name="module_managed_identity"></a> [managed\_identity](#module\_managed\_identity) | terraform.registry.launch.nttdata.com/module_primitive/user_managed_identity/azurerm | ~> 1.2 |
 | <a name="module_mysql_server"></a> [mysql\_server](#module\_mysql\_server) | terraform.registry.launch.nttdata.com/module_primitive/mysql_server/azurerm | ~> 1.1 |
 | <a name="module_mysql_server_configuration"></a> [mysql\_server\_configuration](#module\_mysql\_server\_configuration) | ../.. | n/a |
@@ -22,13 +22,13 @@
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [random_password.admin_password](https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_administrator_login"></a> [administrator\_login](#input\_administrator\_login) | The administrator login for the Postgres Flexible Server.<br/>Required when `create_mode` is Default and `authentication.password_auth_enabled` is true | `string` | `null` | no |
 | <a name="input_class_env"></a> [class\_env](#input\_class\_env) | (Required) Environment where resource is going to be deployed. For example. dev, qa, uat | `string` | `"dev"` | no |
 | <a name="input_instance_env"></a> [instance\_env](#input\_instance\_env) | Number that represents the instance of the environment. | `number` | `0` | no |
@@ -44,7 +44,7 @@
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_resource_group_name"></a> [resource\_group\_name](#output\_resource\_group\_name) | n/a |
 | <a name="output_server_configuration"></a> [server\_configuration](#output\_server\_configuration) | n/a |
 | <a name="output_server_name"></a> [server\_name](#output\_server\_name) | n/a |

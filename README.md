@@ -107,7 +107,7 @@ If `make check` target is successful, developer is good to commit the code to pr
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | ~> 3.113 |
 
@@ -118,13 +118,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [azurerm_mysql_flexible_server_configuration.configuration](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/mysql_flexible_server_configuration) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_configuration_key"></a> [configuration\_key](#input\_configuration\_key) | The configuration key to set on the mysql flexible server | `string` | n/a | yes |
 | <a name="input_configuration_value"></a> [configuration\_value](#input\_configuration\_value) | The configuration value to set on the mysql flexible server | `string` | n/a | yes |
 | <a name="input_mysql_server_name"></a> [mysql\_server\_name](#input\_mysql\_server\_name) | Name of the Mysql flexible server | `string` | n/a | yes |
@@ -133,7 +133,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_id"></a> [id](#output\_id) | the ID of the mysql server configuration |
 | <a name="output_name"></a> [name](#output\_name) | the name of the mysql server configuration |
 | <a name="output_value"></a> [value](#output\_value) | the value of the mysql server configuration |
