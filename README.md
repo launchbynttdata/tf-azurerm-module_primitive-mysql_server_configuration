@@ -124,7 +124,7 @@ No modules.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-| ---- | ----------- | ---- | ------- | :------: |
+|------|-------------|------|---------|:--------:|
 | <a name="input_configuration_key"></a> [configuration\_key](#input\_configuration\_key) | The configuration key to set on the mysql flexible server | `string` | n/a | yes |
 | <a name="input_configuration_value"></a> [configuration\_value](#input\_configuration\_value) | The configuration value to set on the mysql flexible server | `string` | n/a | yes |
 | <a name="input_mysql_server_name"></a> [mysql\_server\_name](#input\_mysql\_server\_name) | Name of the Mysql flexible server | `string` | n/a | yes |
